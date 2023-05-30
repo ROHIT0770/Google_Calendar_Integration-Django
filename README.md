@@ -6,6 +6,8 @@ You need to use the OAuth2 mechanism to get users calendar access. Below are det
 For run this project on a local Computer: 
 
 ```sh
+Go to Google_Calendar_Integration folder and then use this command
+
 pip install - r requriments.txt
 ```
 Prerequisites run this project on a local machine:
