@@ -19,13 +19,10 @@ This view should start step 1 of the OAuth. Which will prompt user for his/her c
 ```
 /rest/v1/calendar/redirect/ -> GoogleCalendarRedirectView()
 ```
-This view will do two things
-1. Handle redirect request sent by google with code for token. You
-need to implement mechanism to get access_token from given
-code
-2. Once got the access_token get list of events in users calendar
-
-### Note: To run this assignment need google account credentials which need to save in the project directory and add a redirect URL in your google cloud.
+The purpose of this view is two fold:
+1. Managing redirect requests sent by Google containing a code for obtaining a token. It requires implementing a mechanism to retrieve an access token from the provided code.
+2. Upon successfully obtaining the access token, retrieving a list of events from the user's calendar.
+### Note: In order to successfully execute this assignment, it is essential to have your Google account credentials readily available. These credentials should be securely stored within the project directory. Additionally, please ensure that you have configured a redirect URL in your Google Cloud account to ensure smooth functioning of the assignment.
 
 
 
